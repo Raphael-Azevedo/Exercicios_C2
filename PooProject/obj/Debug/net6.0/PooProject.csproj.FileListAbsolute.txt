@@ -1,0 +1,15 @@
+C:\Users\Raphael\Desktop\c#\PooProject\obj\Debug\net6.0\PooProject.csproj.AssemblyReference.cache
+C:\Users\Raphael\Desktop\c#\PooProject\obj\Debug\net6.0\PooProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Raphael\Desktop\c#\PooProject\obj\Debug\net6.0\PooProject.AssemblyInfoInputs.cache
+C:\Users\Raphael\Desktop\c#\PooProject\obj\Debug\net6.0\PooProject.AssemblyInfo.cs
+C:\Users\Raphael\Desktop\c#\PooProject\obj\Debug\net6.0\PooProject.csproj.CoreCompileInputs.cache
+C:\Users\Raphael\Desktop\c#\PooProject\bin\Debug\net6.0\PooProject.exe
+C:\Users\Raphael\Desktop\c#\PooProject\bin\Debug\net6.0\PooProject.deps.json
+C:\Users\Raphael\Desktop\c#\PooProject\bin\Debug\net6.0\PooProject.runtimeconfig.json
+C:\Users\Raphael\Desktop\c#\PooProject\bin\Debug\net6.0\PooProject.dll
+C:\Users\Raphael\Desktop\c#\PooProject\bin\Debug\net6.0\ref\PooProject.dll
+C:\Users\Raphael\Desktop\c#\PooProject\bin\Debug\net6.0\PooProject.pdb
+C:\Users\Raphael\Desktop\c#\PooProject\obj\Debug\net6.0\PooProject.dll
+C:\Users\Raphael\Desktop\c#\PooProject\obj\Debug\net6.0\ref\PooProject.dll
+C:\Users\Raphael\Desktop\c#\PooProject\obj\Debug\net6.0\PooProject.pdb
+C:\Users\Raphael\Desktop\c#\PooProject\obj\Debug\net6.0\PooProject.genruntimeconfig.cache
