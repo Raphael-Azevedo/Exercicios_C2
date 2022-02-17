@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OnCMboZgLeUoO5LFiG61EVt42hHhVgdjpVhvUj3snfscxkMLIgnsCy+xbljWFG7ojGMn3gWC3ynYN9SL9ZdR3Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Raphael\\desktop\\c#\\DominiosRicos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Raphael\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
