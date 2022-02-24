@@ -25,3 +25,4 @@ D:\REPOSITÓRIO\Exercicios_C\AulaForms\obj\Debug\Aula60.pdb
 D:\REPOSITÓRIO\Exercicios_C\AulaForms\obj\Debug\Aula60.F_CheckBox.resources
 D:\REPOSITÓRIO\Exercicios_C\AulaForms\obj\Debug\Aula60.F_CheckedListBox.resources
 D:\REPOSITÓRIO\Exercicios_C\AulaForms\obj\Debug\Aula60.F_filhoCheckBox.resources
+D:\REPOSITÓRIO\Exercicios_C\AulaForms\obj\Debug\Aula60.F_ComboBox.resources

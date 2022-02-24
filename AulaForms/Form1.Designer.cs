@@ -39,6 +39,7 @@
             this.componentesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.checkboxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.checkedListboxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.comboBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -122,7 +123,8 @@
             // 
             this.componentesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.checkboxToolStripMenuItem,
-            this.checkedListboxToolStripMenuItem});
+            this.checkedListboxToolStripMenuItem,
+            this.comboBoxToolStripMenuItem});
             this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
             this.componentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.componentesToolStripMenuItem.Text = "Componentes";
@@ -140,6 +142,13 @@
             this.checkedListboxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.checkedListboxToolStripMenuItem.Text = "CheckedListbox";
             this.checkedListboxToolStripMenuItem.Click += new System.EventHandler(this.checkedListboxToolStripMenuItem_Click);
+            // 
+            // comboBoxToolStripMenuItem
+            // 
+            this.comboBoxToolStripMenuItem.Name = "comboBoxToolStripMenuItem";
+            this.comboBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.comboBoxToolStripMenuItem.Text = "ComboBox";
+            this.comboBoxToolStripMenuItem.Click += new System.EventHandler(this.comboBoxToolStripMenuItem_Click);
             // 
             // F_Principal
             // 
@@ -180,6 +189,7 @@
         private System.Windows.Forms.ToolStripMenuItem componentesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem checkboxToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem checkedListboxToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem comboBoxToolStripMenuItem;
     }
 }
 
