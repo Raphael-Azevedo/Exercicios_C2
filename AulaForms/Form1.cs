@@ -61,5 +61,23 @@ namespace Aula60
             F_ComboBox f_ComboBox = new F_ComboBox();
             f_ComboBox.ShowDialog();
         }
+
+        private void dataTimePickerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_DateTimePicker f_DateTimePicker = new F_DateTimePicker();
+            f_DateTimePicker.ShowDialog();
+        }
+
+        private void labelLinkLabelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_LinkLabel f_LinkLabel = new F_LinkLabel();
+            f_LinkLabel.ShowDialog();
+        }
+
+        private void listBoxToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_ListBox f_ListBox = new F_ListBox();
+            f_ListBox.ShowDialog();
+        }
     }
 }
