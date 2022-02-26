@@ -79,5 +79,17 @@ namespace Aula60
             F_ListBox f_ListBox = new F_ListBox();
             f_ListBox.ShowDialog();
         }
+
+        private void listViewToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_ListView f_Lisview = new F_ListView();
+            f_Lisview.ShowDialog();
+        }
+
+        private void maskedTextBoxToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_MaskedTextBox f_maskedTextBox = new F_MaskedTextBox();
+            f_maskedTextBox.ShowDialog();
+        }
     }
 }

@@ -28,3 +28,6 @@ D:\REPOSITÓRIO\Exercicios_C\AulaForms\obj\Debug\Aula60.F_filhoCheckBox.resource
 D:\REPOSITÓRIO\Exercicios_C\AulaForms\obj\Debug\Aula60.F_ComboBox.resources
 D:\REPOSITÓRIO\Exercicios_C\AulaForms\obj\Debug\Aula60.F_DateTimePicker.resources
 D:\REPOSITÓRIO\Exercicios_C\AulaForms\obj\Debug\Aula60.F_LinkLabel.resources
+D:\REPOSITÓRIO\Exercicios_C\AulaForms\obj\Debug\Aula60.F_ListBox.resources
+D:\REPOSITÓRIO\Exercicios_C\AulaForms\obj\Debug\Aula60.F_ListView.resources
+D:\REPOSITÓRIO\Exercicios_C\AulaForms\obj\Debug\Aula60.F_MaskedTextBox.resources

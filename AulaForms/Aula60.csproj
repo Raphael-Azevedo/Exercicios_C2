@@ -94,6 +94,18 @@
     <Compile Include="F_ListBox.Designer.cs">
       <DependentUpon>F_ListBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="F_ListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_ListView.Designer.cs">
+      <DependentUpon>F_ListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_MaskedTextBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_MaskedTextBox.Designer.cs">
+      <DependentUpon>F_MaskedTextBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="F_Veiculos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +137,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="F_ListBox.resx">
       <DependentUpon>F_ListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_ListView.resx">
+      <DependentUpon>F_ListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_MaskedTextBox.resx">
+      <DependentUpon>F_MaskedTextBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="F_Veiculos.resx">
       <DependentUpon>F_Veiculos.cs</DependentUpon>
