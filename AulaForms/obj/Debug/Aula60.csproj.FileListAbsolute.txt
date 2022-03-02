@@ -31,3 +31,6 @@ D:\REPOSITÓRIO\Exercicios_C\AulaForms\obj\Debug\Aula60.F_LinkLabel.resources
 D:\REPOSITÓRIO\Exercicios_C\AulaForms\obj\Debug\Aula60.F_ListBox.resources
 D:\REPOSITÓRIO\Exercicios_C\AulaForms\obj\Debug\Aula60.F_ListView.resources
 D:\REPOSITÓRIO\Exercicios_C\AulaForms\obj\Debug\Aula60.F_MaskedTextBox.resources
+D:\REPOSITÓRIO\Exercicios_C\AulaForms\obj\Debug\Aula60.F_MonthCalendar.resources
+D:\REPOSITÓRIO\Exercicios_C\AulaForms\obj\Debug\Aula60.F_NumericUpDown.resources
+D:\REPOSITÓRIO\Exercicios_C\AulaForms\obj\Debug\Aula60.F_PictureBox.resources

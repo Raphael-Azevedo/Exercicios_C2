@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_Principal));
             this.btn_adicionar = new System.Windows.Forms.Button();
             this.lb_veiculos = new System.Windows.Forms.Label();
             this.tb_veiculo = new System.Windows.Forms.TextBox();
@@ -45,7 +47,16 @@
             this.listBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.maskedTextBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.monthCalendarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.Menu = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.Tsmi_restaurar = new System.Windows.Forms.ToolStripMenuItem();
+            this.Tsmi_mensagem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Tsim_fechar = new System.Windows.Forms.ToolStripMenuItem();
+            this.numericUpDownToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
+            this.Menu.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_adicionar
@@ -134,7 +145,10 @@
             this.labelLinkLabelToolStripMenuItem,
             this.listBoxToolStripMenuItem,
             this.listViewToolStripMenuItem,
-            this.maskedTextBoxToolStripMenuItem});
+            this.maskedTextBoxToolStripMenuItem,
+            this.monthCalendarToolStripMenuItem,
+            this.numericUpDownToolStripMenuItem,
+            this.pictureBoxToolStripMenuItem});
             this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
             this.componentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.componentesToolStripMenuItem.Text = "Componentes";
@@ -195,6 +209,62 @@
             this.maskedTextBoxToolStripMenuItem.Text = "MaskedTextBox";
             this.maskedTextBoxToolStripMenuItem.Click += new System.EventHandler(this.maskedTextBoxToolStripMenuItem_Click);
             // 
+            // monthCalendarToolStripMenuItem
+            // 
+            this.monthCalendarToolStripMenuItem.Name = "monthCalendarToolStripMenuItem";
+            this.monthCalendarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.monthCalendarToolStripMenuItem.Text = "MonthCalendar";
+            this.monthCalendarToolStripMenuItem.Click += new System.EventHandler(this.monthCalendarToolStripMenuItem_Click);
+            // 
+            // notifyIcon1
+            // 
+            this.notifyIcon1.ContextMenuStrip = this.Menu;
+            this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
+            this.notifyIcon1.Text = "CFB Cursos";
+            this.notifyIcon1.Visible = true;
+            // 
+            // Menu
+            // 
+            this.Menu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.Tsmi_restaurar,
+            this.Tsmi_mensagem,
+            this.Tsim_fechar});
+            this.Menu.Name = "Menu";
+            this.Menu.Size = new System.Drawing.Size(134, 70);
+            this.Menu.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.Menu_ItemClicked);
+            // 
+            // Tsmi_restaurar
+            // 
+            this.Tsmi_restaurar.Name = "Tsmi_restaurar";
+            this.Tsmi_restaurar.Size = new System.Drawing.Size(180, 22);
+            this.Tsmi_restaurar.Text = "Restaurar";
+            // 
+            // Tsmi_mensagem
+            // 
+            this.Tsmi_mensagem.Name = "Tsmi_mensagem";
+            this.Tsmi_mensagem.Size = new System.Drawing.Size(180, 22);
+            this.Tsmi_mensagem.Text = "Mensagem";
+            // 
+            // Tsim_fechar
+            // 
+            this.Tsim_fechar.Name = "Tsim_fechar";
+            this.Tsim_fechar.Size = new System.Drawing.Size(180, 22);
+            this.Tsim_fechar.Text = "Fechar";
+            // 
+            // numericUpDownToolStripMenuItem
+            // 
+            this.numericUpDownToolStripMenuItem.Name = "numericUpDownToolStripMenuItem";
+            this.numericUpDownToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.numericUpDownToolStripMenuItem.Text = "NumericUpDown";
+            this.numericUpDownToolStripMenuItem.Click += new System.EventHandler(this.numericUpDownToolStripMenuItem_Click);
+            // 
+            // pictureBoxToolStripMenuItem
+            // 
+            this.pictureBoxToolStripMenuItem.Name = "pictureBoxToolStripMenuItem";
+            this.pictureBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pictureBoxToolStripMenuItem.Text = "PictureBox";
+            this.pictureBoxToolStripMenuItem.Click += new System.EventHandler(this.pictureBoxToolStripMenuItem_Click);
+            // 
             // F_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -216,6 +286,7 @@
             this.Text = "Curso de C# - CFB Cursos";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.Menu.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -240,6 +311,14 @@
         private System.Windows.Forms.ToolStripMenuItem listBoxToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listViewToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem maskedTextBoxToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem monthCalendarToolStripMenuItem;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
+        private System.Windows.Forms.ContextMenuStrip Menu;
+        private System.Windows.Forms.ToolStripMenuItem Tsmi_restaurar;
+        private System.Windows.Forms.ToolStripMenuItem Tsmi_mensagem;
+        private System.Windows.Forms.ToolStripMenuItem Tsim_fechar;
+        private System.Windows.Forms.ToolStripMenuItem numericUpDownToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pictureBoxToolStripMenuItem;
     }
 }
 

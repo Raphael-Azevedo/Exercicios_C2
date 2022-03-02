@@ -91,5 +91,39 @@ namespace Aula60
             F_MaskedTextBox f_maskedTextBox = new F_MaskedTextBox();
             f_maskedTextBox.ShowDialog();
         }
+
+        private void monthCalendarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_MonthCalendar f_MonthCalendar = new F_MonthCalendar();
+            f_MonthCalendar.ShowDialog();
+        }
+
+        private void Menu_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            if(e.ClickedItem.Text == "Fechar")
+            {
+                this.Close();
+            }
+            else if (e.ClickedItem.Text == "Restaurar")
+            {
+                this.WindowState = FormWindowState.Normal;
+            }
+            else if (e.ClickedItem.Text == "Mensagem")
+            {
+                MessageBox.Show("CFB Curso de C#");
+            }
+        }
+
+        private void numericUpDownToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_NumericUpDown f_NumericUpDown = new F_NumericUpDown();
+            f_NumericUpDown.ShowDialog();
+        }
+
+        private void pictureBoxToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_PictureBox f_PictureBox = new F_PictureBox();
+            f_PictureBox.ShowDialog();
+        }
     }
 }

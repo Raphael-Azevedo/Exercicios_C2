@@ -40,9 +40,9 @@
             // 
             this.Mtb_senha.Location = new System.Drawing.Point(12, 64);
             this.Mtb_senha.Name = "Mtb_senha";
-            this.Mtb_senha.PasswordChar = '*';
             this.Mtb_senha.Size = new System.Drawing.Size(243, 20);
             this.Mtb_senha.TabIndex = 0;
+            this.Mtb_senha.UseSystemPasswordChar = true;
             // 
             // label1
             // 

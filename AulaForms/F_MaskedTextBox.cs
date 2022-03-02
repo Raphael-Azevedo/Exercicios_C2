@@ -33,7 +33,11 @@ namespace Aula60
 
         private void Btn_mostrarSenha_Click(object sender, EventArgs e)
         {
-            Mtb_senha.UseSystemPasswordChar = false;
+            if (Mtb_senha.UseSystemPasswordChar)
+                Mtb_senha.UseSystemPasswordChar = false;
+            
+            else
+                Mtb_senha.UseSystemPasswordChar = true;
         }
     }
 }
