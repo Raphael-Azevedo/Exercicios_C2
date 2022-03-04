@@ -125,5 +125,17 @@ namespace Aula60
             F_PictureBox f_PictureBox = new F_PictureBox();
             f_PictureBox.ShowDialog();
         }
+
+        private void progressBarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_ProgressBar f_ProgressBar = new F_ProgressBar();
+            f_ProgressBar.ShowDialog();
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            F_RadioButton f_RadioButton = new F_RadioButton();
+            f_RadioButton.ShowDialog();
+        }
     }
 }

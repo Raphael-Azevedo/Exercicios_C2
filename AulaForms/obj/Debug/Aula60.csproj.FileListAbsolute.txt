@@ -34,3 +34,5 @@ D:\REPOSITÓRIO\Exercicios_C\AulaForms\obj\Debug\Aula60.F_MaskedTextBox.resource
 D:\REPOSITÓRIO\Exercicios_C\AulaForms\obj\Debug\Aula60.F_MonthCalendar.resources
 D:\REPOSITÓRIO\Exercicios_C\AulaForms\obj\Debug\Aula60.F_NumericUpDown.resources
 D:\REPOSITÓRIO\Exercicios_C\AulaForms\obj\Debug\Aula60.F_PictureBox.resources
+D:\REPOSITÓRIO\Exercicios_C\AulaForms\obj\Debug\Aula60.F_ProgressBar.resources
+D:\REPOSITÓRIO\Exercicios_C\AulaForms\obj\Debug\Aula60.F_RadioButton.resources
