@@ -137,5 +137,35 @@ namespace Aula60
             F_RadioButton f_RadioButton = new F_RadioButton();
             f_RadioButton.ShowDialog();
         }
+
+        private void trackBarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_TrackBar f_TrackBar = new F_TrackBar();
+            f_TrackBar.ShowDialog();
+        }
+
+        private void treeViewToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_TreeView f_TreeView = new F_TreeView();
+            f_TreeView.ShowDialog();
+        }
+
+        private void webBrowserToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_WebBrowser f_WebBrowser = new F_WebBrowser();
+            f_WebBrowser.ShowDialog();
+        }
+
+        private void splitConteinerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_SplitContainer f_SplitContainer = new F_SplitContainer();
+            f_SplitContainer.ShowDialog();
+        }
+
+        private void tabControlToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_TabControl f_TabControl = new F_TabControl();
+            f_TabControl.ShowDialog();
+        }
     }
 }
