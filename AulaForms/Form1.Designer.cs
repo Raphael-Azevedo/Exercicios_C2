@@ -56,12 +56,18 @@
             this.treeViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.webBrowserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.splitConteinerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tabControlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tableLayoutPanelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripContainerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.backGroundWorkerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.timerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.Menu = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.Tsmi_restaurar = new System.Windows.Forms.ToolStripMenuItem();
             this.Tsmi_mensagem = new System.Windows.Forms.ToolStripMenuItem();
             this.Tsim_fechar = new System.Windows.Forms.ToolStripMenuItem();
-            this.tabControlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sQLiteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sQLiteToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.Menu.SuspendLayout();
             this.SuspendLayout();
@@ -135,7 +141,8 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.componentesToolStripMenuItem});
+            this.componentesToolStripMenuItem,
+            this.sQLiteToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(300, 24);
@@ -162,7 +169,11 @@
             this.treeViewToolStripMenuItem,
             this.webBrowserToolStripMenuItem,
             this.splitConteinerToolStripMenuItem,
-            this.tabControlToolStripMenuItem});
+            this.tabControlToolStripMenuItem,
+            this.tableLayoutPanelToolStripMenuItem,
+            this.toolStripContainerToolStripMenuItem,
+            this.backGroundWorkerToolStripMenuItem,
+            this.timerToolStripMenuItem});
             this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
             this.componentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.componentesToolStripMenuItem.Text = "Componentes";
@@ -286,6 +297,41 @@
             this.splitConteinerToolStripMenuItem.Text = "SplitConteiner";
             this.splitConteinerToolStripMenuItem.Click += new System.EventHandler(this.splitConteinerToolStripMenuItem_Click);
             // 
+            // tabControlToolStripMenuItem
+            // 
+            this.tabControlToolStripMenuItem.Name = "tabControlToolStripMenuItem";
+            this.tabControlToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tabControlToolStripMenuItem.Text = "TabControl";
+            this.tabControlToolStripMenuItem.Click += new System.EventHandler(this.tabControlToolStripMenuItem_Click);
+            // 
+            // tableLayoutPanelToolStripMenuItem
+            // 
+            this.tableLayoutPanelToolStripMenuItem.Name = "tableLayoutPanelToolStripMenuItem";
+            this.tableLayoutPanelToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tableLayoutPanelToolStripMenuItem.Text = "TableLayoutPanel";
+            this.tableLayoutPanelToolStripMenuItem.Click += new System.EventHandler(this.tableLayoutPanelToolStripMenuItem_Click);
+            // 
+            // toolStripContainerToolStripMenuItem
+            // 
+            this.toolStripContainerToolStripMenuItem.Name = "toolStripContainerToolStripMenuItem";
+            this.toolStripContainerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.toolStripContainerToolStripMenuItem.Text = "ToolStripContainer";
+            this.toolStripContainerToolStripMenuItem.Click += new System.EventHandler(this.toolStripContainerToolStripMenuItem_Click);
+            // 
+            // backGroundWorkerToolStripMenuItem
+            // 
+            this.backGroundWorkerToolStripMenuItem.Name = "backGroundWorkerToolStripMenuItem";
+            this.backGroundWorkerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.backGroundWorkerToolStripMenuItem.Text = "BackGroundWorker";
+            this.backGroundWorkerToolStripMenuItem.Click += new System.EventHandler(this.backGroundWorkerToolStripMenuItem_Click);
+            // 
+            // timerToolStripMenuItem
+            // 
+            this.timerToolStripMenuItem.Name = "timerToolStripMenuItem";
+            this.timerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.timerToolStripMenuItem.Text = "Timer";
+            this.timerToolStripMenuItem.Click += new System.EventHandler(this.timerToolStripMenuItem_Click);
+            // 
             // notifyIcon1
             // 
             this.notifyIcon1.ContextMenuStrip = this.Menu;
@@ -321,12 +367,20 @@
             this.Tsim_fechar.Size = new System.Drawing.Size(133, 22);
             this.Tsim_fechar.Text = "Fechar";
             // 
-            // tabControlToolStripMenuItem
+            // sQLiteToolStripMenuItem
             // 
-            this.tabControlToolStripMenuItem.Name = "tabControlToolStripMenuItem";
-            this.tabControlToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.tabControlToolStripMenuItem.Text = "TabControl";
-            this.tabControlToolStripMenuItem.Click += new System.EventHandler(this.tabControlToolStripMenuItem_Click);
+            this.sQLiteToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.sQLiteToolStripMenuItem1});
+            this.sQLiteToolStripMenuItem.Name = "sQLiteToolStripMenuItem";
+            this.sQLiteToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.sQLiteToolStripMenuItem.Text = "SQLite";
+            // 
+            // sQLiteToolStripMenuItem1
+            // 
+            this.sQLiteToolStripMenuItem1.Name = "sQLiteToolStripMenuItem1";
+            this.sQLiteToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.sQLiteToolStripMenuItem1.Text = "SQLite";
+            this.sQLiteToolStripMenuItem1.Click += new System.EventHandler(this.sQLiteToolStripMenuItem1_Click);
             // 
             // F_Principal
             // 
@@ -389,6 +443,12 @@
         private System.Windows.Forms.ToolStripMenuItem webBrowserToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem splitConteinerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tabControlToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tableLayoutPanelToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripContainerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem backGroundWorkerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem timerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sQLiteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sQLiteToolStripMenuItem1;
     }
 }
 

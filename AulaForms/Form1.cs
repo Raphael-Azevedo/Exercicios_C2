@@ -167,5 +167,35 @@ namespace Aula60
             F_TabControl f_TabControl = new F_TabControl();
             f_TabControl.ShowDialog();
         }
+
+        private void tableLayoutPanelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_TableLayoutPanel f_TableLayoutPanel = new F_TableLayoutPanel();
+            f_TableLayoutPanel.ShowDialog();
+        }
+
+        private void toolStripContainerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_ToolStripContainer f_ToolStripContainer = new F_ToolStripContainer();
+            f_ToolStripContainer.ShowDialog();
+        }
+
+        private void backGroundWorkerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_BackgroundWorker f_BackgroundWorker = new F_BackgroundWorker();
+            f_BackgroundWorker.ShowDialog();
+        }
+
+        private void timerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_Timer f_Timer = new F_Timer();
+            f_Timer.ShowDialog();
+        }
+
+        private void sQLiteToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            F_SQLite f_SQLite = new F_SQLite();
+            f_SQLite.ShowDialog();
+        }
     }
 }

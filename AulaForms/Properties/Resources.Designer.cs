@@ -91,6 +91,16 @@ namespace Aula60.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap PikPng_com_carro_png_1303060 {
+            get {
+                object obj = ResourceManager.GetObject("PikPng.com_carro-png_1303060", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap rabisco {
             get {
                 object obj = ResourceManager.GetObject("rabisco", resourceCulture);
